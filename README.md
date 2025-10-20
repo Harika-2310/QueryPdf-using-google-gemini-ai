@@ -33,17 +33,7 @@
 - Response Generation → top-matching chunks passed to Gemini AI for contextual answer generation.
 - Output Display → result shown on Streamlit UI with relevant text references.
 
- ## Implementation Steps
 
-- Install dependencies
-   - pip install streamlit PyPDF2 langchain langchain-google-genai langchain-community faiss-cpu google-generativeai
-- Set up environment
-  - Create a .env file and add your Google Gemini API key
-  - GOOGLE_API_KEY="your_api_key_here"
-- Run the application
-
-  - streamlit run app.py
-- Upload your PDF and start chatting!
 
 ## 🔍 Working Process
 
